@@ -194,6 +194,12 @@ header nav a {
     padding-right: 4vw;
 }
 
+.populares {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 
 .populares h2 {
@@ -218,7 +224,7 @@ header nav a {
 
 .astronaltas {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     align-content: space-around;
 
@@ -263,4 +269,32 @@ header nav a {
 
     color: #FF5B50;
 
+}
+
+.quarta-dobra {
+    background-color: #0E0E0E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.melhores-artistas {
+    display: flex;
+}
+
+.melhores-artistas h2 {
+    display: flex;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    padding-top: 50px;
+
+    color: #FFFFFF;
+}
+
+.melhores-artistas span {
+    color: #FF5B50;
 }
