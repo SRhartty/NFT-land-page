@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+body {
+    margin: 0px;
+
+}
+
+
+
+.primeira-dobra {
+    background-image: url(./assets/background.png);
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding-top: 30px;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header nav a {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.logocat {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #000;
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    padding: 5px 10px 5px 10px;
+}
+
+.logocat a {
+    display: flex;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.inicio-nft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    gap: 130px;
+}
+
+.mercado p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 50px;
+    color: #FFFFFF;
+}
+
+.artistas-selecionados {
+    display: flex;
+    align-items: flex-end;
+}
+
+.artistas-selecionados span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+
+.descubra p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 61px;
+
+    color: #FFFFFF;
+}
+
+.descubra span {
+    color: #FF5B50;
+}
+
+.galeria img {
+    border: 2px solid rgb(204, 204, 204);
+
+}
+
+.galeria-um {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.galeria-dois {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.segunda-dobra {
+    display: flex;
+    background-color: #0E0E0E;
+    border-bottom: 2px solid rgb(204, 204, 204);
+}
+
+.segunda-dobra img {
+    width: 85vw;
+}
+
+.numeros {
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-right: 2px solid #6d6d6d;
+}
+
+.numeros h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 61px;
+    margin-bottom: 0px;
+
+    color: #FFFFFF;
+}
+
+.numeros span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+
+    color: #5A5757;
+}
+
+.paragrafo {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.paragrafo p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    /* padding-left: 100px; */
+    /* padding-right: 100px; */
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    width: 25vw;
+}
+
+.paragrafo a {
+    display: block;
+    padding-top: 25px;
+}
+
+.terceira-dobra {
+    background-color: #0E0E0E;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+
+
+.populares h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 61px;
+
+    color: #fff;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 6vw;
+    padding-bottom: 6vw;
+
+}
+
+.populares span {
+    color: #FF5B50;
+}
+
+.astronaltas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-around;
+
+}
+
+.astronaltas h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+
+    color: #FFFFFF;
+}
+
+
+
+
+.descri {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.descri h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #5A5757;
+}
+
+.descri span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FF5B50;
+
+}
